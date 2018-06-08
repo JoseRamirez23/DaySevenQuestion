@@ -87,3 +87,12 @@
 <h3>Some of basic built-in directives?</h3>
 <p>ng-style,ng-class, and ng-disabled</p>
 
+<br>
+<h2>Below are the practice</h2>
+<hr>
+<greeting-message></greeting-message>
+
+
+<p *ngIf=displayParagraph [ngStyle]="{'position':'absolute', 'right':'0','top':'0'}">There it is</p>
+
+<p *ngFor="let User of users">{{User.name}} user's number is {{User.id}}</p>
